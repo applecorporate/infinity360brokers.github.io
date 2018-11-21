@@ -32,15 +32,16 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "4.8.7",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
-    "siteUrl": "",
+    "siteUrl": "https://applecorporate.github.io/infinity360brokers.github.io/",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "!--StartofTawk.toScript--scripttype=textjavascript var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date() (function(){ var s1=document.createElement(script),s0=document.getElementsByTagName(script)[0] s1.async=true s1.src= httpsembed.tawk.to5bf5126340105007f378ef29default  s1.charset=UTF-8 s1.setAttribute(crossorigin,*) s0.parentNode.insertBefore(s1,s0) })() script !--End of Tawk.to Script--.html": {
@@ -728,7 +729,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": false,
+            "slides__autoplay": true,
             "slides__autoplayInterval": 4000,
             "slides__showBullets": true,
             "slides": [
@@ -1075,6 +1076,31 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": "5",
+            "facebook": "facebook.com/Infinity360Brokers-269252893794041",
+            "twitter": "twitter.com/infinity360B",
+            "google": "",
+            "youtube": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-f"
         },
         {
           "_styles": {
