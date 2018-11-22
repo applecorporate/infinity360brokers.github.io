@@ -2734,8 +2734,37 @@ body {
 .cid-ra84vXdIJw .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-ra84vZSQey {
-  background-image: url("../../../assets/images/physics-and-chemistry-2-1680x1050.jpg");
+.cid-ra8hJvqXG9 {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-ra8hJvqXG9 .image-block {
+  margin: auto;
+}
+.cid-ra8hJvqXG9 figcaption {
+  position: relative;
+}
+.cid-ra8hJvqXG9 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-ra8hJvqXG9 .image-block {
+    width: 100% !important;
+  }
+}
+.cid-ra8g9rrm2x {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #232323;
+}
+.cid-ra8g9rrm2x .mbr-section-subtitle {
+  color: #efefef;
+}
+.cid-ra8g9rrm2x B {
+  color: #ffffff;
 }
 .cid-ra84w33k7x .modal-body .close {
   background: #1b1b1b;
